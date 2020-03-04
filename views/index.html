@@ -1,0 +1,17 @@
+<html>
+<head></head>
+<body>
+    <canvas style="position: fixed; top: 0; bottom: 0;" id="overlay" width=500 height=500></canvas>
+
+    <div>
+        <video onplay="onPlay(this)" id="video" autoplay muted width=500 height=500></video>
+    </div>
+    <div id="timeline" style="height: 400px;"></div>
+    <button onclick="clear()">clear</button>
+
+</body>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="face-api.js"></script>
+    <script src="jquery.js"></script>
+    <script src="js/app.js"></script>
+</html>
